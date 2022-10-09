@@ -1,0 +1,181 @@
+body {
+    /* font-family: 'Raleway', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.webstudio {
+    font-family: 'Raleway', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo {
+    color: rgba(33, 150, 243, 1);
+}
+
+.link {
+    color: rgba(33, 33, 33, 1);
+}
+.link:hover,
+.link:focus {
+    color: blue;
+}
+.contact {
+    color: rgba(117, 117, 117, 1);
+    text-decoration: none;
+}
+
+.header .link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: rgba(33, 33, 33, 1);
+}
+
+.header .link:active {
+    color: rgba(33, 150, 243, 1);
+}
+
+.button-all {
+    background-color: rgba(33, 150, 243, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: inherit;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+}
+
+.button {
+    background-color: rgba(245, 244, 250, 1);
+    color: rgba(33, 33, 33, 1);
+    border: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+}
+
+.portfolio {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.typ {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.86;
+}
+
+.adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 1);
+}
+
+.kontakt_stopka {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+  
+   
+}
+footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+ul {list-style-type: none;
+}
+.mail {
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color:blue
+}
+
+a:active {
+    text-decoration: none;
+}
+.sekcja1{background-color: rgba(47, 48, 58, 1);}
+
+h1{ 
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+}
+.zamow{
+        background-color: rgba(33, 150, 243, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: inherit;
+        border: none;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        cursor: pointer;
+
+}
+.lorem{
+    color: rgba(33, 33, 33, 1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.14;
+}
+.p{
+    color: rgba(117, 117, 117, 1);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.71;
+}
+.opis{
+    color: rgba(33, 33, 33, 1);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+}
+.sekcja2 {
+    background-color: rgba(245, 244, 250, 1);
+}
+.imie{
+    color: rgba(33, 33, 33, 1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.17;
+}
+.stanowisko{
+    color: rgba(117, 117, 117, 1);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.17;
+}
