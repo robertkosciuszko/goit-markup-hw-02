@@ -1,12 +1,11 @@
 body {
     /* font-family: 'Raleway', sans-serif;*/
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #212121;
 }
 
 .webstudio {
     font-family: 'Raleway', sans-serif;
-    font-style: bold;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -14,6 +13,11 @@ body {
 
 .logo {
     color: rgba(33, 150, 243, 1);
+}
+.logo2{ color:rgba(0, 0, 0, 1);
+}
+.logo3 {
+  color:  rgba(255, 255, 255, 1); 
 }
 
 .link {
@@ -24,12 +28,12 @@ body {
     color: blue;
 }
 .contact {
+    font-size: 14px;
     color: rgba(117, 117, 117, 1);
     text-decoration: none;
 }
 
 .header .link {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -45,7 +49,6 @@ body {
     color: rgba(255, 255, 255, 1);
     font-family: inherit;
     border: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -57,7 +60,6 @@ body {
     color: rgba(33, 33, 33, 1);
     border: none;
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -65,22 +67,16 @@ body {
 }
 
 .portfolio {
-    font-style: bold;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
 
 .typ {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.86;
 }
 
 .adress {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 1);
@@ -88,17 +84,75 @@ body {
 
 .kontakt_stopka {
     color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.86;
-  
-   
 }
-footer {
+.logo:active,
+.logo2:active,
+.logo3:active {
+    color: #2196F3;
+}
+
+.logo:hover,
+.logo2:hover,
+.logo3:hover,
+.logo:focus,
+.logo2:focus,
+.logo3:focus {
+    color: #2196F3;
+}
+
+.header .link:active {
+    color: #2196F3;
+}
+
+.header .link:hover,
+.header .link:focus {
+    color: #2196F3;
+}
+
+.header .contact:active {
+    color: #2196F3;
+}
+
+.header .contact:focus,
+.header .contact:hover {
+    color: #2196F3;
+}
+
+.adress:active,
+.adress:hover,
+.adress:focus {
+    color: #2196F3;
+}
+
+.kontakt_stopka:active {
+    color: #2196F3;
+}
+
+.kontakt_stopka:hover,
+.kontakt_stopka:focus {
+    color: #2196F3;
+}
+
+.buton:active {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.order:active {
+    color: #2196F3;
+}
+.down_footer{
     background-color: rgba(47, 48, 58, 1);
 }
-ul {list-style-type: none;
+.list{list-style-type: none;
 }
 .mail {
     text-decoration: underline;
@@ -124,17 +178,15 @@ a:active {
 
 h1{ 
     color: rgba(255, 255, 255, 1);
-    font-style: normal;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
 }
-.zamow{
+.order{
         background-color: rgba(33, 150, 243, 1);
         color: rgba(255, 255, 255, 1);
         font-family: inherit;
         border: none;
-        font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -144,38 +196,29 @@ h1{
 .lorem{
     color: rgba(33, 33, 33, 1);
     font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 1.14;
 }
-.p{
+.text{
     color: rgba(117, 117, 117, 1);
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 1.71;
 }
-.opis{
+.description{
     color: rgba(33, 33, 33, 1);
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 1.16;
 }
 .sekcja2 {
     background-color: rgba(245, 244, 250, 1);
 }
-.imie{
+.name{
     color: rgba(33, 33, 33, 1);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.17;
 }
-.stanowisko{
+.position{
     color: rgba(117, 117, 117, 1);
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 1.17;
 }
